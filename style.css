@@ -1,1 +1,113 @@
+body {
+  background: lightblue;
+  margin: 0;
+}
+
+
+nav {
+  color: rgba(0,0,0,.6);
+  background-color: rgba(238, 238, 238, 0.88);
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 2
+}
+
+
+ul {
+    padding: 2px;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 32%;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.section1 {
+    text-align: center;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Marbre.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.article1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+.article_section2 {
+  display: inline-block;
+  width: 33.33333333%;
+  float: left;
+}
+
+.article_section2 img, .article_section2 iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+.article_section2 p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.article_section2 h3 {
+  font-family: 'Lobster', cursive;
+}
+
+.texte_article {
+  height:100.72px;
+  margin:25px 10px;
+}
+
+.Article_Tomates {
+  background-color: white;
+  text-align: center;
+}
+
+.Article_Tomates:hover {
+  background-color: red;
+}
+
+.Article_Pdt {
+  background-color: white;
+  text-align: center;
+}
+
+.Article_Pdt:hover {
+  background-color: red;
+}
+
+.Article_Carottes {
+  background-color: white;
+  text-align: center;
+}
+
+.Article_Carottes:hover {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+}
+
+.color--red {
+  color: red;
+}
+
+@media (max-width: 671px) {
+  .article_section2 {
+    width: 100%;
+  }
+}
 /* Silence is golden */

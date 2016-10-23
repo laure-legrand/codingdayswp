@@ -1,5 +1,11 @@
     <footer>
-      <!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le footer de toutes vos pages  -->
+              <b>
+                <p>
+                  Made with
+                    <span class="color--red">♥</span>
+                  <em>Copyright</em>
+                </p>
+              </b>
     </footer>
     <?php wp_footer(); ?>
   </body>
